@@ -9,9 +9,9 @@ EE494
 #include <Wire.h> // I2C comms lib
 
 // Constant Configs
-const char* ssid = "Verizon_V9ZM9M"; // network ssid
-const char* password = "jump4-mail-bet"; // network password
-const char* mqtt_server = "192.168.1.154"; // Broker IP
+const char* ssid = "Your_WiFi"; // network ssid
+const char* password = "Your_WiFi"; // network password
+const char* mqtt_server = "PI-IP"; // Broker IP
 
 WiFiClient espClient;// Wifi clinet object for esp
 PubSubClient client(espClient);// Pubsub mqtt protocol for pi
